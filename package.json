@@ -8,8 +8,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "export": "tsx scripts/export-applications.ts",
-    "setup": "prisma generate"
+    "export": "tsx scripts/export-applications.ts"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.9.1",
