@@ -2,9 +2,5 @@
   "version": 2,
   "buildCommand": "pnpm build",
   "installCommand": "pnpm install && pnpm prisma generate",
-  "framework": "nextjs",
-  "env": {
-    "DATABASE_URL": "@database_url",
-    "ENCRYPTION_KEY": "@encryption_key"
-  }
+  "framework": "nextjs"
 } 
