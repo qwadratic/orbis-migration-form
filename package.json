@@ -8,7 +8,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "export": "tsx scripts/export-applications.ts"
+    "export": "tsx scripts/export-applications.ts",
+    "test:db": "tsx scripts/test-db-connection.ts"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.9.1",
