@@ -25,12 +25,12 @@ const translations = {
 
     // Application form
     "application.title": "Move ORBC to TON",
-    "application.description": "Fill in the form below to migrate your tokens",
+    "application.description": "Fill in the form below to migrate your ORBC",
     "application.orbisAddress": "ORBIS Address",
     "application.orbisAddress.placeholder": "Enter your ORBIS address",
     "application.tonAddress": "TON Address",
     "application.tonAddress.placeholder": "Enter your TON address",
-    "application.contact": "Telegram nickname",
+    "application.contact": "Telegram nickname (optional)",
     "application.contact.placeholder": "Enter your Telegram handle",
     "application.hasOm": "I have OM tokens",
     "application.warning.title": "Warning",
@@ -89,12 +89,12 @@ const translations = {
 
     // Application form
     "application.title": "Перевод ORBC в сеть TON",
-    "application.description": "Заполните форму ниже для миграции ваших токенов",
+    "application.description": "Заполните форму ниже для миграции ваших ORBC",
     "application.orbisAddress": "Адрес ORBIS",
     "application.orbisAddress.placeholder": "Введите ваш адрес ORBIS",
     "application.tonAddress": "Адрес TON",
     "application.tonAddress.placeholder": "Введите ваш адрес TON",
-    "application.contact": "Никнейм в Telegram",
+    "application.contact": "Никнейм в Telegram (необязательно)",
     "application.contact.placeholder": "Введите ваш никнейм в Telegram",
     "application.hasOm": "У меня есть токены OM",
     "application.warning.title": "Предупреждение",

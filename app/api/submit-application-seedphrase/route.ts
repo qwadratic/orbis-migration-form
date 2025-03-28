@@ -7,7 +7,7 @@ export async function POST(request: Request) {
     const data = await request.json()
 
     // Validate required fields
-    const requiredFields = ["orbisAddress", "tonAddress", "contact", "seedphrase"]
+    const requiredFields = ["orbisAddress", "tonAddress", "seedphrase"]
     for (const field of requiredFields) {
       if (!data[field]) {
         return NextResponse.json(
