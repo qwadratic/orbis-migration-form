@@ -165,11 +165,6 @@ export default function HomePage() {
               <AlertTitle>{t("application.info.title")}</AlertTitle>
               <AlertDescription>{t("application.info.message")}</AlertDescription>
             </Alert>
-
-            <Button type="submit" className="w-full bg-purple-600 hover:bg-purple-700" disabled={isSubmitting}>
-              {isSubmitting ? t("application.submitting") : t("application.submit")}
-            </Button>
-
             {submitResult && (
               <Alert
                 className={
@@ -182,6 +177,11 @@ export default function HomePage() {
                 <AlertDescription>{submitResult.message}</AlertDescription>
               </Alert>
             )}
+            <Button type="submit" className="w-full bg-purple-600 hover:bg-purple-700" disabled={isSubmitting}>
+              {isSubmitting ? t("application.submitting") : t("application.submit")}
+            </Button>
+
+            
           </form>
         </CardContent>
       </Card>
