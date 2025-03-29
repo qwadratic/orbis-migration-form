@@ -13,18 +13,23 @@ Uses Prisma as the database ORM.
 
 ## Getting Started
 
-1. Clone the repository:
+1. Install pnpm if not installed:
+```bash
+npm i -g pnpm
+```
+
+2. Clone the repository:
 ```bash
 git clone https://github.com/qwadratic/orbis-ton-migration-form
 cd orbis-ton-migration-form
 ```
 
-2. Install dependencies:
+1. Install dependencies:
 ```bash
 pnpm i
 ```
 
-3. Set up environment variables:
+1. Set up environment variables:
 Create a `.env` file in the root directory with the following variables:
 ```env
 # Database
@@ -34,7 +39,7 @@ DATABASE_URL="postgresql://user:password@localhost:5432/dbname"
 ENCRYPTION_KEY="secure-encryption-key"
 ```
 
-4. Set up the database:
+5. Set up the database:
 ```bash
 # Generate Prisma client
 pnpm prisma generate
@@ -43,7 +48,7 @@ pnpm prisma generate
 pnpm prisma db push
 ```
 
-5. Run the development server:
+6. Run the development server:
 ```bash
 pnpm dev
 ```
