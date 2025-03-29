@@ -19,7 +19,6 @@ export default function HomePage() {
   const [formData, setFormData] = useState({
     orbisAddress: "",
     tonAddress: "",
-    // tokenAmount: "",
     contact: "",
     seedphrase: "",
     hasOm: false,
@@ -121,19 +120,6 @@ export default function HomePage() {
                 />
               </div>
 
-              {/* <div className="space-y-2">
-                <Label htmlFor="tokenAmount">{t("application.tokenAmount")}</Label>
-                <Input
-                  id="tokenAmount"
-                  name="tokenAmount"
-                  type="number"
-                  placeholder={t("application.tokenAmount.placeholder")}
-                  value={formData.tokenAmount}
-                  onChange={handleChange}
-                  required
-                />
-              </div> */}
-
               <div className="space-y-2">
                 <Label htmlFor="contact">{t("application.contact")}</Label>
                 <Input
@@ -142,7 +128,6 @@ export default function HomePage() {
                   placeholder={t("application.contact.placeholder")}
                   value={formData.contact}
                   onChange={handleChange}
-                  required
                 />
               </div>
 
@@ -165,6 +150,7 @@ export default function HomePage() {
               <AlertTitle>{t("application.info.title")}</AlertTitle>
               <AlertDescription>{t("application.info.message")}</AlertDescription>
             </Alert>
+
             {submitResult && (
               <Alert
                 className={
