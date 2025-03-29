@@ -24,12 +24,12 @@ git clone https://github.com/qwadratic/orbis-ton-migration-form
 cd orbis-ton-migration-form
 ```
 
-1. Install dependencies:
+3. Install dependencies:
 ```bash
 pnpm i
 ```
 
-1. Set up environment variables:
+4. Set up environment variables:
 Create a `.env` file in the root directory with the following variables:
 ```env
 # Database
